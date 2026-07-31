@@ -1,0 +1,12 @@
+{
+  // Picked up automatically by the nitro "cloudflare-module" preset at build
+  // time and merged into the generated .output/server/wrangler.json.
+  // Rename "name" to whatever you want the Worker to be called on Cloudflare
+  // (it becomes part of the default *.workers.dev URL), then run:
+  //   npm run build
+  //   npx wrangler deploy --cwd .output
+  "name": "blue-dice",
+  // Add any bindings you need here later, e.g.:
+  // "vars": { "VITE_REFLECTION_WEBHOOK_URL": "https://..." },
+  // "kv_namespaces": [{ "binding": "MY_KV", "id": "..." }]
+}
